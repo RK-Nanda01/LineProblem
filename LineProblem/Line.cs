@@ -51,6 +51,24 @@ namespace LineProblem
             }
         }
 
+        public int Compare(Line l2)
+        {
+
+            double length1 = this.Length();
+            double length2 = l2.Length();
+            if (length1 > length2)
+            {
+                return 1;
+            }
+            else if(length1 < length2)
+            {
+                return -1;
+            }
+            else
+            {
+                return 0;
+            }
+        }
 
     }
 }

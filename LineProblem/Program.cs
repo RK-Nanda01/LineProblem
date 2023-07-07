@@ -38,6 +38,22 @@ namespace LineProblem {
                 Console.WriteLine("Lines are Not Equal");
             }
 
+            //UC3
+            Console.WriteLine("---UC3---");
+            int res = l1.Compare(l2);
+            if (res == 1)
+            {
+                Console.WriteLine("Line 1 is greater than Line 2");
+            }
+
+            else if(res == -1)
+            {
+                Console.WriteLine("Line 1 is smaller than Line 2");
+            }
+            else
+            {
+                Console.WriteLine("Both Lines are Equal");
+            }
 
 
         }

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Data;
+
 namespace LineProblem
 {
 	public class Line
@@ -68,6 +70,14 @@ namespace LineProblem
             {
                 return 0;
             }
+        }
+
+        public void SetCoordinates(double a, double b, double c, double d)
+        {
+            this.x1 = a;
+            this.y1 = b;
+            this.x2 = c;
+            this.y2 = d;
         }
 
     }
